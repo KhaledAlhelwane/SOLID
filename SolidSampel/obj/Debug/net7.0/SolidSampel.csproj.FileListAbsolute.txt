@@ -1,0 +1,14 @@
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\bin\Debug\net7.0\SolidSampel.exe
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\bin\Debug\net7.0\SolidSampel.deps.json
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\bin\Debug\net7.0\SolidSampel.runtimeconfig.json
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\bin\Debug\net7.0\SolidSampel.dll
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\bin\Debug\net7.0\SolidSampel.pdb
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.AssemblyInfoInputs.cache
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.AssemblyInfo.cs
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.csproj.CoreCompileInputs.cache
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.dll
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\refint\SolidSampel.dll
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.pdb
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\SolidSampel.genruntimeconfig.cache
+C:\Users\khale\Desktop\Asp core projects\SolidSampel\SolidSampel\obj\Debug\net7.0\ref\SolidSampel.dll
