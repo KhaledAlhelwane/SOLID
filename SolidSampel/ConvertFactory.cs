@@ -29,11 +29,18 @@ namespace SolidSampel
             // as we have alot of cases it will be so hard to start testing it because every condition is code path 
             // so we are going to user refliction
             // Refliction help in creating instances dynmiclay 
-
-            return (Converter)
-            Activator.CreateInstance(
-          Type.GetType($"SolidSampel.{type.ToString()}Converter"),
-           new object[] { DecimalNumber });
+            try
+            {
+                return (Converter)
+           Activator.CreateInstance(
+         Type.GetType($"SolidSampel.{type.ToString()}Converter"),
+          new object[] { DecimalNumber });
+            }
+            catch (Exception)
+            {
+                return new InvalidBaseConverter(DecimalNumber);
+            }
+           
 
         }
        

@@ -26,24 +26,8 @@ namespace SolidSampel
             Console.WriteLine("now,please entert the Type that you want to convert (EX: 2,8,16)");
             var baseType = (BaseType)IntParsing();
             string result=string.Empty;
-            switch (baseType)
-            {
-                    case BaseType.Binary:
-                    var type = ConvertFactory.create(baseType, DecimalNumber);
-                    result = type.Convert();
-                    break;
-                    case BaseType.Octal:
-                    var type2 = ConvertFactory.create(baseType, DecimalNumber);
-                    result = type2.Convert();
-                    break;
-                case BaseType.Hixadecimal:
-                    var type3 = ConvertFactory.create(baseType, DecimalNumber);
-                    result = type3.Convert();
-                    break;
-                    default:
-                    result = "No base"; 
-                    break;
-            }
+            var type = ConvertFactory.create(baseType, DecimalNumber);
+            result = type.Convert();
             loging.Log($"you result is this {result}");
             loging.Log("The program is ending");
 
