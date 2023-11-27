@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolidSampel
 {
-    internal class Logger
+    internal class Logger:Iloger
     {
         public void Log(string message)
         {

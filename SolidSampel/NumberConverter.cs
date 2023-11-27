@@ -17,8 +17,17 @@ namespace SolidSampel
     internal class NumberConverter
     {
         public int DecimalNumber { get; set; }
-        Logger loging=new Logger();
-        Reader reader=new Reader();
+        //here acutully we replaced these instances to make the dependeny inversion principle through the dependency injuction pattern
+        // now we will replace them with the abstraction as we connected the low level with abstraction , now we connecting the high level mudole with the abstraciotn 
+     //   Logger loging=new Logger();
+     //   Reader reader=new Reader();
+     Iloger loging { get; set; }
+        IReader reader { get; set; }
+        public NumberConverter(Iloger loger,IReader reader)
+        {
+                loging = loger;
+            this.reader=reader;
+        }
         public void Convert()
         {
             loging.Log("please enter the number that you want to convert:");
@@ -35,7 +44,7 @@ namespace SolidSampel
         }
         public int IntParsing()
         {
-            return int.Parse(reader.Read());
+            return reader.Read();
         }
     }
 }

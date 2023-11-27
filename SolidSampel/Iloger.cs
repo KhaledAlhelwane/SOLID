@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SolidSampel
 {
-    internal class Reader:IReader
+    internal interface Iloger
     {
-        public int Read() {
-          return int.Parse(Console.ReadLine());
-        }
+        void Log(string message);
     }
 }
